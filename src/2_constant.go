@@ -18,6 +18,8 @@ const (
 	i
 	j = iota
 	k
+	l = 1 << iota
+	m
 )
 
 func main() {
@@ -27,5 +29,5 @@ func main() {
 
 	fmt.Println("Since the length is", LENGTH, ". The decision is", DECISION)
 	fmt.Println(a, b, c)
-	fmt.Println(d, e, f, g, h, i, j, k)
+	fmt.Println(d, e, f, g, h, i, j, k, l, m)
 }
